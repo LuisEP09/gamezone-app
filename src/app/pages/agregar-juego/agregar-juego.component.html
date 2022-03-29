@@ -1,0 +1,27 @@
+<div class="w-100 imagen-fondo">
+    <div class="container">
+        <div class="row justify-content-center text-center align-items-center" style="height: 100vh;">
+            <div class="col-6 h-auto text-white rounded" style="background-color:#424867;">
+                <h3 class="m-4">Formulario de juegos</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control mb-4 col-3" id="exampleInputtext" aria-describedby="emailHelp"
+                            placeholder="Nombre del juego:" name="nombre" [(ngModel)]="juego.nombre">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control mb-4 col-3" id="exampleInputtext1" aria-describedby="emailHelp"
+                            placeholder="Descripción:" name="descripcion" [(ngModel)]="juego.descripcion">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control mb-4 col-3" id="exampleInputtext2" aria-describedby="emailHelp"
+                            placeholder="Categoria:" name="categoria" [(ngModel)]="juego.categoria" >
+                    </div>
+                    <div style="display: flex; justify-content: space-around;">
+                        <button type="submit" [routerLink]="['/nombres']" class="btn btn-primary mb-4 rounded-pill">Cancelar</button>
+                        <button type="submit" role="button" (click)="agregar()" class="btn btn-primary mb-4 rounded-pill">Publicar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

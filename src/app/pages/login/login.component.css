@@ -1,0 +1,24 @@
+.imagen-fondo{
+    background-image: url(../../../assets/img/sesion.png);
+    background-position: center;
+    background-size: contain;
+}
+
+input{
+    background-color: #3273a8;
+    border:1px solid #000000;
+    color: #ffffff;
+}
+
+::placeholder { 
+    color: aliceblue;
+}
+
+input:focus{
+    background-color: #3273a8;
+    border:1px solid #000000;
+    color: #ffffff;
+}
+button{
+    color: black;
+}

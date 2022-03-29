@@ -1,0 +1,22 @@
+p{
+    font-size: 20px;
+}
+a{
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .list-nombres{
+        font-size: 7px;
+    }
+
+    .boton-admin{
+        display: none;
+    }
+}
+
+@media (min-width: 701px){
+    .boton-admin-movil{
+        display: none;
+    }
+}
